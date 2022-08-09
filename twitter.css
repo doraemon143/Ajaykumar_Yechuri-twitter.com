@@ -93,26 +93,33 @@
         border-radius: 25px;
     }
     #signin button{
-        width: 250px;
+        width: 290px;
     }
     #user{
-        width: 250px;
+        width: 290px;
     }
+
     #signin button a{
         font-size: 18px;
+        opacity: 1;
     }
     #signin h5{
         font-size: 18px;
         font-weight:700;
     }
     #signin h1{
-        font-size: 22px;
-        font-weight:700;
+        font-size: 26px;
+        font-weight:900;
     }
     .fa-xmark{
-        right: 129px;
+        right: 150px;
     }
     .index{
         background-color: #000000;
+    }
+    ::placeholder{
+        opacity: 1;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 }
