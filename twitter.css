@@ -87,10 +87,10 @@
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 15%;
     }
     #signin{
-        width: 330px;
+        width: 370px;
+        border-radius: 25px;
     }
     #signin button{
         width: 250px;
@@ -111,5 +111,8 @@
     }
     .fa-xmark{
         right: 129px;
+    }
+    .index{
+        background-color: #000000;
     }
 }
