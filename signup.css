@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.body{
+    background-color: black;
+}
+.fa-twitter{
+    font-size: 50px;
+    margin-left: 4.5%;
+}
+
+.container h1{
+    font-size: 70px;
+    font-weight: 750;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container h3{
+    font-size:35px;
+    font-weight: 750;
+}
+
+.container button a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container button {
+    width: 310px;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+}
+
+.container h5{
+    margin-left: 17%;
+}
+.container .sd{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 1;
+}
+.button h6 a{
+    text-decoration: none;
+}
+.button h6{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.account{
+    color: #fff;   
+    font-size: 18px;
+    font-weight: bold;
+}
+.button .sd1{
+    color: blue;
+}
+.button .sd3{
+    outline-color: #fff;
+    background-color: whitesmoke;
+}
+
+#modal{
+    background-color: #000 !important;
+}
+footer{
+    margin-top: 6%;
+    margin-bottom: 10%;
+}
+footer a{
+    display: inline-block;
+    color: white;
+    opacity: 0.6;
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+    text-align: center;
+}
+footer a:hover{
+    color: white;
+    opacity: 1;
+    text-decoration: underline;
+}
+@media (max-width:799px){
+    .container h5{
+        margin-left: 37%;
+    }
+    .fa-twitter{
+        font-size: 50px;
+        margin-left: 9%;
+    }
+}
+@media (max-width:479px){
+    .container h5{
+        margin-left: 55%;
+    }
+    footer{
+        margin-top: 14%;
+        margin-bottom: 10%;
+     
+    }
+    .container h1{
+        font-size: 48px;
+        font-weight: 750;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container h3 {
+        font-size: 28px;
+    }
+    .container button {
+        width: 290px;
+    }
+    .container button a{
+        text-decoration: none;
+        color: black;
+        opacity: 0.7;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .fa-twitter{
+        font-size: 50px;
+        text-align: center;
+        margin-left: 43%;
+    }
+}
